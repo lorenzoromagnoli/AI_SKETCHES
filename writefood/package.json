@@ -1,0 +1,25 @@
+{
+  "name": "write",
+  "version": "1.0.0",
+  "description": "collaborative write code and build presentation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenzoromagnoli/write"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^0.6.3",
+    "bower": "^1.8.0",
+    "ejs": "^2.5.2",
+    "express": "^4.12.4"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
+}

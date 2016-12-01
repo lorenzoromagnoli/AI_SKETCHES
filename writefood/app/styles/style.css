@@ -1,0 +1,78 @@
+html, body, section, .full-height {
+    height: 100%;
+}
+
+body, h1, h2, h3{
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  text-align: center;
+}
+
+#pad{
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#markdown {
+    overflow: auto;
+    border-left: 1px solid black;
+}
+
+#output{
+  text-align: left;
+}
+
+.hero{
+  text-align: center;
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+form.newDoc{
+  margin-top: 10em;
+  text-align: center;
+}
+
+form input{
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+    outline-offset: 0px;
+    outline: none;
+}
+
+form.newDoc input{
+font-size: 3em;
+}
+
+
+
+#pad {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    min-height: 20em;
+    background-color: black;
+    color: white;
+}
+#log {
+    font-size: 10px;
+    word-wrap: break-word;
+    text-align: left;
+}
