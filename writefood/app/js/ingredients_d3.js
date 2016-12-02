@@ -33,12 +33,12 @@ d3.json("./static/parsed.json", function(data) {
     console.log(ingredients);
 
     for (var i = 0; i < ingredients.length; i++) {
-        $("#viz").append("<h2>" + ingredients[i].name + "</h2>");
+        $("#viz").append("<h2 id="+ingredients[i].name+">" + ingredients[i].name + "</h2>");
 
 
         $("#viz").append("<div class='attributes-ingredients'>");
         for (var j = 0; j < ingredients[i].match1.length; j++) {
-            $("#viz").append("<span class='ingredient' popularity='"+ingredients[i].match1[j].frequency+"'>" + ingredients[i].match1[j].name);
+            $("#viz").append("<span class='ingredient' popularity='"+ingredients[i].match1[j].frequency+"'><a href=#"+ ingredients[i].match1[j].name+">"+ ingredients[i].match1[j].name)+"</span>";
 
         }
         $("#viz").append("</div>");
