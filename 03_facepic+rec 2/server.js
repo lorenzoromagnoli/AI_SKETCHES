@@ -33,17 +33,11 @@ var fpp = require('face-plus-plus'),
     var parameters = {
         attribute: 'gender,age',
         img : {
-            value: fs.readFileSync('./public/img/portrait.jpg')
+            value: fs.readFileSync('./public/uploads/userPhoto.jpg')
             , meta: {filename:'portrait.jpg'}
         }
     };
 
-
-    fpp.post('detection/detect', parameters, function(err, res) {
-        console.log(err);
-        console.log('thinking');
-        console.log(res.face[0].attribute);
-    });
 
 
     app.post('/api/photo',function(req,res){
@@ -52,7 +46,14 @@ var fpp = require('face-plus-plus'),
                 return res.end("Error uploading file.");
                 console.log (err);
             }else{
-              return res.end("done");
+              fpp.post('detection/detect', parameters, function(err, res) {
+                  console.log(err);
+                  console.log('thinking');
+
+                  console.log(res.face[0].attribute);
+              });
+              //return res.end(res.face[0].attribute);
+              //return res.end("done");
             }
         });
     });
