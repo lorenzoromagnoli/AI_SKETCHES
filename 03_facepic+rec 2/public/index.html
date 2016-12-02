@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WebcamJS Test Page</title>
+    <style type="text/css">
+        body {
+            font-family: Helvetica, sans-serif;
+        }
+
+        h2,
+        h3 {
+            margin-top: 0;
+        }
+
+        form {
+            margin-top: 15px;
+        }
+
+        form>input {
+            margin-right: 15px;
+        }
+
+        #results {
+            float: right;
+        }
+    </style>
+    <!-- First, include the Webcam.js JavaScript Library -->
+    <script type="text/javascript" src="webcam.js"></script>
+
+</head>
+
+<body>
+    <div id="results">Your captured image will appear here...</div>
+
+    <div id="my_camera"></div>
+    <script type="text/javascript" src="sketch.js"></script>
+    <!-- A button for taking snaps -->
+    <form>
+        <input type=button value="Take Snapshot" onClick="take_snapshot()">
+    </form>
+
+    <form method="post" enctype="multipart/form-data" action="/api/photo">
+      <input type="file" name="userPhoto" accept="image/*" multiple="multiple">
+      </input>
+      <input type="submit"></input>
+    </form>
+
+</body>
+
+</html>

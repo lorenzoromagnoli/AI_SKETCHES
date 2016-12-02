@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "foodprocessor-151101",
+  "private_key_id": "16cdf8c1cfa6df0b27c5c382fdef25ddca2f5752",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDzkBgAZATVGtnR\nZ+AVpjFWIDMRXZHVXERFqpnYh/5CfQ9G8LQ3nWlJ6b9T8zppBW+v0tUetzJqFvww\nunONS9d/F6n4vSObczdupyI8aQtCmCDaG3F+Hdj0UIxtpqA37eh6yuzrx2clNgJx\nhVpWnJTJaVVb+LmrkmgaVzYtWanYKahQNJ6Y2YIRblQ5j8Qf5TpltC2lcKz/JQUe\nzTLlz8Fqh79JufVS30shQycBS8mWbKl4QEZFwuOLWl0xh1dU5OWB7wfrUy+RSRZp\nIFVnw6obOM4wozCT+ZMYSTMVDV4DayKtAOV8ggrw27hxyHSRvU9CedyfLvRHUsfZ\nEo8hJTl5AgMBAAECggEBAJvyxQtq/xUbzh+gbQAvmyNUFp6l1LxSCXy50SutV4Vm\n4aNAd4OsjD/BJLox4FJiIrLnQYIbNnJrKSpiF55+0woTMseLAwODcBivduJLN+R5\n138PV0my/rjf4ipLKAbnk5Ub3TrSQB65SDM7eS4/r5yOjxMGXIuYgINtF8lNwcwf\nEFI0yG2YgErStR1PoxaHb++GanxpnNi7Z1BB84RGeZnYnJWY1UXY23mNRdYFEQp5\nmEqZJX6QA7TMWY0EYu8xSgPhsFtshjO46q6WK1dk8jGRsASa2VznUSLi+b+Yfh92\nZrWZJ3xNpNr+iar61op5RxiCs7D3vuHALlMqr9/0+wkCgYEA/ZFJ+H6eE01K+vjc\nsw5Y0g/fBKVrgb/2fmhWxqoF2FYQCY1ATeVDaFwO7t1TSS7ynRtKRyt/gcRgGb6/\n6px935cbn5vK4beVNjYahWgwo2mhsSYJyHGmuKac0UXF8Fpb3ie8sNkP8c6TszKY\nTBMhtqmQW2oefQfLx92LYcQ6YD8CgYEA9eY8P6selsdwR5KXamUTq7TIX3ZsUBfh\nDvs4/VIFGcxz9h9SwBIxwtxh3nB03XrsDfj5Ehok6cIYvaBBIpYjo5QAatqf1LZV\n+G8+g2yeFU7YGeqBBCHIWojISHaxzYpIwplNWaMDAi3QwkNxgA6M2NoOqDew6qpV\nOr+/I6JpeEcCgYEAiU1Fz5/IOs1sn29oGjDXmY9shJiKGSz37UTUUCi6l4Uqk/F/\nc26ETJsknuULdyJLzxR66QS9u2e5XddzFjf81Lh/BbMXbZe53Sv4umpLhADrw//D\n5lzcGTpmyc7NOrPC8Q11WBGBV78zLSJlYzQs2jsA5u8UaUFyb9wf4CWgMoMCgYAc\n15eDhEe/Ob9itcAK27Y18qt5/wLvVg2w2yixFdjBUOjdGolzO+8YQw87rwcWH1/m\nt6hHRkfEH18VhuF89A1UF30BC4mpwoVM8YdslOXp6+iPCaF+YZQFgnuzfDCYwjqM\nkLyw4dzteYA9+PksIwjEOrdzZazbqYT7shfyTw996wKBgQCsVAvrvHEvrNEHXNfS\nFETCJkf7FPNX6/H5d6YoVRPa9kMYwwK6FpHOP1+PDN7YLpfDmwtejyNQR2FC3qDy\nmEgRJNw/hLwdvkQduucbCQDF4rrq68QXVVRezbn3rfQJql41IV4emQemYJFoQ6kf\nlynuhFP0/Jb1w3HkFBiE/A0BHg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "foodprocess@foodprocessor-151101.iam.gserviceaccount.com",
+  "client_id": "111608817022131020944",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/foodprocess%40foodprocessor-151101.iam.gserviceaccount.com"
+}
