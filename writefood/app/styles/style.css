@@ -4,7 +4,7 @@ html, body, section, .full-height {
 
 body, h1, h2, h3{
   font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-  text-align: center;
+  text-align: left;
 }
 
 #pad{

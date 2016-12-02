@@ -4,7 +4,7 @@ var app = express();
 
 var language = require('@google-cloud/language')({
   projectId: 'foodProcessor',
-  keyFilename: 'auth/foodProcessor-91d2941e7062.json'
+  keyFilename: 'auth/foodProcessor-16cdf8c1cfa6.json'
 });
 
 
@@ -31,8 +31,16 @@ app.get('/', function(req, res) {
   res.render('index.html');
 });
 
-app.get('/(:id)', function(req, res) {
-  res.render('index.html');
+app.get('/ingredients', function(req, res) {
+  res.render('ingredients.html');
+});
+// app.get('/(:id)', function(req, res) {
+//   res.render('index.html');
+// });
+
+
+app.get('/echo', function (req, res) {
+  console.log(req)
 });
 
 app.post('/understand', function (req, res) {

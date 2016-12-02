@@ -2,7 +2,7 @@ var lastText;
 
 var keywords=[];
 
-var addKeywords = function(keyword){
+var addKeywords = function(keyword){ 
   if(keywords.indexOf(keyword)==-1){
     keywords.push(keyword)
     console.log (keywords);
