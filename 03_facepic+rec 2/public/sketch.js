@@ -15,6 +15,8 @@ function take_snapshot() {
             // Upload complete!
             // 'code' will be the HTTP response code from the server, e.g. 200
             // 'text' will be the raw response content
+            console.log(text);
+            $('#response').html(text)
         });
 
         // display results in page
