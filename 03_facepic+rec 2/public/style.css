@@ -1,0 +1,26 @@
+body, h1, h2, h3{
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  text-align: left;
+  color: black;
+}
+
+.faces{
+  color: white;
+  background-color: yellow;
+}
+
+.age{
+  color: white;
+  background-color: red;
+}
+
+.race{
+  color: white;
+  background-color: green;
+}
+
+
+.gender{
+  color: white;
+  background-color: blue;
+}
