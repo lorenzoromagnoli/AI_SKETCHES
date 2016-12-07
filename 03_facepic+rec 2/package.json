@@ -10,6 +10,7 @@
   "author": "Simone Rebaudengo",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/vision": "^0.6.0",
     "express": "^4.14.0",
     "multer": "^1.2.0",
     "promise": "^7.1.1"
